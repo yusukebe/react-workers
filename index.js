@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOMServer from 'react-dom/server';
 
 const App = () => {
-  return <div>Hello SSR</div>;
+  return <div>Hello React!</div>;
 }
 
 const handleEvent = (event) => {
