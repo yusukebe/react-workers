@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "react-workers",
+  "version": "0.0.1",
+  "description": "A template for Cloudflare Workers with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Yusuke Wada <yusuke@kamawada.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "prettier": "^1.18.2",
+    "webpack": "^5.65.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
